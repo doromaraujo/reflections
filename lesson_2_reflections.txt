@@ -17,3 +17,10 @@ change?
     By comparing what has been added to it, from the working directory, to the
     last commit made to the repository, enabling you to better modularize your
     changes.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    When you want to create a new functionality in a code project or fix bugs. 
+    Branches help organizing the commits' history in a way that you can keep
+    working in different versions of the same code.
