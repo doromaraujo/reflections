@@ -61,12 +61,3 @@ How do the diagrams help you visualize the branch structure?
     It's a simpler abstraction of what git does when maintaining branches
     from different versions and all of their respective commits. Less
     information being displayed at you enables you to focus on what matters.
-
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-
-    It merges commits from both branches into a resulting commit, keeping the 
-    history of changes made in these branches in a single one.
-
-    It is represented in such a way to make others understand that the merge
-    was made to a resulting branch.

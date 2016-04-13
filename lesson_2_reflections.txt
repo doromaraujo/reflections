@@ -24,3 +24,13 @@ organized? How would branches help?
     When you want to create a new functionality in a code project or fix bugs. 
     Branches help organizing the commits' history in a way that you can keep
     working in different versions of the same code.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    It merges commits from both branches into a resulting commit, keeping the 
+    history of changes made in these branches in a single one.
+
+    It is represented in such a way to make others understand that the merge
+    was made to a resulting branch.
