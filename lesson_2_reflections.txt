@@ -34,3 +34,12 @@ the diagram the way we do?
 
     It is represented in such a way to make others understand that the merge
     was made to a resulting branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+    Git's automatic merges are useful in a way that it gracefully intersects
+    non-conflicting changes. It isn't capable of merging conflicts easily, 
+    though. As for manual merging, it lets the commiter to choose which changes
+    to keep and/or discard (as it should), but it can grow tiresome if too many
+    changes were made on each branch when merging.
