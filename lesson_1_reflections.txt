@@ -1,0 +1,72 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It shortens the time spent looking for changes, since all of the unchanged 
+    code is removed from the command's output, showing up only the lines that 
+    were actually changed. The 'plus' and 'minus' characters are also very 
+    helpful to show which lines were removed and added.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows you to identify which steps were taken thorough the file's
+    existence - to try and better understand why, where and when a change was 
+    made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically, like Google Docs
+does?
+
+    Pros - you have more control as how to separate the versions in a
+    meaningful manner, logical-wise.
+
+    Cons - on the other hand, it's dependant on each git user's interpretation
+    of WHAT is a meaningful commit or whether it is too large or too small; 
+    it also isn't failure-proof if something goes bad with your uncommitted 
+    changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+    Because, for the purpose of Git, tracking changes that were made in a
+    single commit is important, since these changes are, in most cases, related
+    to each other. As for treating each file separately (like Google Docs),
+    the files manipulated by them are in most cases independant from each 
+    other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use "git log" to see all the changes made in the whole repository;
+    as for "git diff", you use it to compare the changes between two commits
+    in order to find out what changed, how many lines were added or deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Trusting that that version control will maintain a history of your code 
+    (that is, if you actually commited a version that IS working) enables you 
+    to make your changes without worrying that a bug could seep into the 
+    working version of your code.
+    
+Now that you have your workspace set up, what do you want to try using Git for?
+    
+    I'd like to use it on actual code that I write! Been meaning to learn git 
+    not only because it's a requirement for the project that I'm about to work
+    on, but also because it's a paradigm shift from using Team Foundation
+    Server.
+
+How do the diagrams help you visualize the branch structure?
+
+    It's a simpler abstraction of what git does when maintaining branches
+    from different versions and all of their respective commits. Less
+    information being displayed at you enables you to focus on what matters.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    It merges commits from both branches into a resulting commit, keeping the 
+    history of changes made in these branches in a single one.
+
+    It is represented in such a way to make others understand that the merge
+    was made to a resulting branch.
