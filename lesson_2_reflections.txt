@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+    
+    It creates all medatada that Git needs in order to maintain it as a 
+    repository. It's necessary because you need to signal Git that it should
+    keep the directory as a repository.
