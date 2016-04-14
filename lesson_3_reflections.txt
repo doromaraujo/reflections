@@ -1,4 +1,5 @@
 When would you want to create a remote repository rather than keeping all your##
 work local?
 
-    
+    When you'd like to keep a backup of your files elsewhere, or even share it 
+    with others.
