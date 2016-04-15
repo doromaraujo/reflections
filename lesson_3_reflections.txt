@@ -29,3 +29,9 @@ one instead of another?
     affecting an original repository and, finally, fork to clone and keep a
     copy of someone else's repository to work on it (if you don't have access
     to it).
+
+What is the benefit of having a copy of the last known state of the remote
+store locally?
+
+    You would be able to keep working with up-to-date files even if you don't
+    have internet connectivity available at that moment.
