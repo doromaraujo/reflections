@@ -4,6 +4,14 @@ work local?
     When you'd like to keep a backup of your files elsewhere, or even share it 
     with others.
 
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Because you're the one that should know whether your local repository is
+    either ready or if it is necessary to be updated with the remote's content.
+    You may not want to have your local files overwritten / wrongly merged, for
+    instance.
+
 Describe the differences between forks, clones and branches. When would you use
 one instead of another?
 
