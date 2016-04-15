@@ -35,3 +35,10 @@ store locally?
 
     You would be able to keep working with up-to-date files even if you don't
     have internet connectivity available at that moment.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+    I'd probably have to use network shared folders (if at work), or use a
+    public Dropbox/Google Docs folder. It'd be harder to share your files, give
+    access for others to also update them, even comment on changes themselves.
