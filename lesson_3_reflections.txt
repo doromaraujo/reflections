@@ -3,3 +3,21 @@ work local?
 
     When you'd like to keep a backup of your files elsewhere, or even share it 
     with others.
+
+Describe the differences between forks, clones and branches. When would you use
+one instead of another?
+
+    Clones are like straight-out copies from a repository, be it either from a 
+    local or a remote one. 
+    
+    Branches are a different version of an existing repository, allowing you to
+    freely modify it without affecting its parent.
+
+    Forks are basically clones from someone else's repository, keeping a
+    reference to the original repository.
+
+    You would choose to clone a repository to work on it from another
+    workstation; choosing a branch would fit experimental changes without
+    affecting an original repository and, finally, fork to clone and keep a
+    copy of someone else's repository to work on it (if you don't have access
+    to it).
