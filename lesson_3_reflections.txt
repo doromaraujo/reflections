@@ -42,3 +42,15 @@ and what would be harder?
     I'd probably have to use network shared folders (if at work), or use a
     public Dropbox/Google Docs folder. It'd be harder to share your files, give
     access for others to also update them, even comment on changes themselves.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+    
+    Pushing changes in a separate branch allows you to not only keep your
+    master branch always in a working state, but also have other people check 
+    and consider your changes - if you're looking for a code review, for 
+    example - even if there's the drawback when having to deal with updates on 
+    the master branch with possible merge conflicts and all.
+
+    Working directly in master can be a better option if you're making small 
+    changes, though. 
